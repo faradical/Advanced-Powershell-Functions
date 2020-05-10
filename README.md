@@ -37,9 +37,9 @@ Add the functions to your path or venv, or call the PowerShellFunctionsLibrary.p
 	* Starts services as specified. Returns an object with the status information of the service.
 
 * SYNTAX
-	* Start-Service [[-service] <string>] [[-server] <string>] [-ifauto] [-ifmanual]
-		* [[-service] <string>]: Accepts the service Display Name as string as valid input.
-		* [[-server] <string>]: Accept server name as string. If none is specified the function will default 
+	* Start-Service [[-service] `<string>`] [[-server] `<string>`] [-ifauto] [-ifmanual]
+		* [[-service] `<string>`]: Accepts the service Display Name as string as valid input.
+		* [[-server] `<string>`]: Accept server name as string. If none is specified the function will default 
 		 to the local machine.
 		* [-ifauto]: specifies to only start a service if its start type is automatic.
 		* [-ifmanual]: specifies to only start a service if its start type is manual.
@@ -48,12 +48,12 @@ Add the functions to your path or venv, or call the PowerShellFunctionsLibrary.p
 
 * RETURNS
 	* Object with the following parameters:
-		* Message: <string> information on the function result
-		* Server: <string>
-		* Service: <string>
-		* Status: <string>
-		* DisplayName: <string>
-		* StartType: <string>
+		* Message: `<string>` information on the function result
+		* Server: `<string>`
+		* Service: `<string>`
+		* Status: `<string>
+		* DisplayName: `<string>`
+		* StartType: `<string>`
 
 ### Top
 
