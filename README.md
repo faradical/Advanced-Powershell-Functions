@@ -40,7 +40,7 @@ Returns whatever is currently saved to the clipboard. I do not believe this is m
 Shows breakdown of CPU usage on a server
 
 * SYNTAX
-	* Get-CPU [[-server] <string>]
+	* `Get-CPU [[-server] <string>]`
 		* If no server is specified, function will default to the local machine.
 
 * RETURNS
