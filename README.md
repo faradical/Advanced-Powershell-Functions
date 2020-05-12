@@ -3,7 +3,7 @@
 A library of PowerShell functions I wrote to ease windows server administration tasks. Useful as stand-alone commands when added to an environmental path or as a module in writing PS scripts for enterprise scale automation.
 
 
-## To Download
+## Instructions
 
 To use these functions, simply clone the repository:
 ```
