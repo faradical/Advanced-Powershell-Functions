@@ -115,7 +115,7 @@ Provides basic information on the system resource consumption of processes in a 
 
 * RETURNS:
 	* Object with parameters:
-		* ProcessName
-		* PercentCPU
-		* MemoryInMB
-		* PercentMemory
+		* ProcessName: `<string>`
+		* PercentCPU: `<int>`
+		* MemoryInMB: `<int>`
+		* PercentMemory: `<int>`
