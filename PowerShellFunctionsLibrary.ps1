@@ -37,19 +37,6 @@ function Get-Clipboard
 	$tb.Text
 }
 
-<#
-RDP
-	-Summary: Opens Remote Desktop Connection to target server
-	-Usage: RDP [target server]
-#>
-function RDP
-{
-	param ([parameter(Mandatory=$True)][string]$server<#, [parameter(Mandatory=$True)][string]$username, [parameter(Mandatory=$True)][string]$password#>)
-	<#pass username and password into function once you get it to work
-	cmdkey /add:$server /user:$User /pass:$password#>
-	mstsc /v:$server
-}
-
 function Start-Service
 {
 	Param
