@@ -18,10 +18,8 @@ Cleans space from predefined file paths for removable content. Later updates may
 
 * SYNTAX
 	* `Clean-Disk [[-servers] <array>/<string>] [[-disk] <string>]`
-		* [[-servers] `<array>`/`<string>`]: Accepts target servers in an array of strings or an individual server.
-		 If none is specified, the function will default to the local machine.
-		* [[-disk] `<string>`]: Specify a single disk to check. If none is specified, the function will return free
-		 space free all drives with a valid size.
+		* [[-servers] `<array>`/`<string>`]: Accepts target servers in an array of strings or an individual server. If none is specified, the function will default to the local machine.
+		* [[-disk] `<string>`]: Specify a single disk to check. If none is specified, the function will attempt to clean space on all drives with a valid size.
 
 * RETURNS
 	* Array of objects with parameters:
@@ -51,10 +49,8 @@ Checks percent free disk space available on target servers
 
 * SYNTAX
 	* `Get-FreeDiskSpace [[-servers] <array>/<string>] [[-disk] <string>]`
-		* [[-servers] `<array>`/`<string>`]: Accepts target servers in an array of strings or an individual server.
-		 If none is specified, the function will default to the local machine.
-		* [[-disk] `<string>`]: Specify a single disk to check. If none is specified, the function will return free
-		 space free all drives with a valid size.
+		* [[-servers] `<array>`/`<string>`]: Accepts target servers in an array of strings or an individual server. If none is specified, the function will default to the local machine.
+		* [[-disk] `<string>`]: Specify a single disk to check. If none is specified, the function will return free space on all drives with a valid size.
 
 * RETURNS
 	* Array of objects with parameters:
@@ -86,8 +82,7 @@ Starts services as specified. Returns an object with the status information of t
 * SYNTAX
 	* `Start-Service [[-service] <string>] [[-server] <string>] [-ifauto] [-ifmanual]`
 		* [[-service] `<string>`]: Accepts the service Display Name as string as valid input.
-		* [[-server] `<string>`]: Accept server name as string. If none is specified the function will default 
-		 to the local machine.
+		* [[-server] `<string>`]: Accept server name as string. If none is specified the function will default to the local machine.
 		* [-ifauto]: specifies to only start a service if its start type is automatic.
 		* [-ifmanual]: specifies to only start a service if its start type is manual.
 		* If neither -ifauto or -ifmanual is specified, the function will start the service regardless of it's start type.
@@ -120,8 +115,8 @@ Provides basic information on the system resource consumption of processes in a 
 		* PercentMemory: `<int>`
 
 ## Donate
-Like what I do? Want me to do more? Send me dollar and say "faradical, go back to work." Or don't.\
+Like what I do? Want me to do more? Send me dollar and say "faradical, go back to work." Or don't.
 
-* [paypal](https://paypal.me/feedseth?locale.x=en_US)\
-* BTC Address: 3E1Hr3Q6imVgvX352QgEPLeXYkrKfgzkQf\
+* [paypal](https://paypal.me/feedseth?locale.x=en_US)
+* BTC Address: 3E1Hr3Q6imVgvX352QgEPLeXYkrKfgzkQf
 * ETH Address: 0x216ee6f11D7547bE201c4E2DAFf02D2C232574f3
