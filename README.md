@@ -9,13 +9,12 @@ To use these functions, simply clone the repository:
 ```
 git clone https://github.com/faradical/Advanced-Powershell-Functions
 ```
-Add the functions to your path or venv, or call the PowerShellFunctionsLibrary.ps1 file as module in other scripts. Most of the complicated functions come with -help modifiers that print documnetion for assistance in use.
+Add the functions to your path or venv, or call the PowerShellFunctionsLibrary.ps1 file as module in other scripts. Most of the complicated functions come with -help modifiers that print documentation for assistance in use.
 
 ## Functions
 
 ### Clean-Disk
-Cleans space from predefined file paths for removable content. Later updates may include parameter to force 
-	script to instead pull file paths from a user specified object. Depends on `Get-FreeDiskSpace` to function.
+Cleans space from predefined file paths for removable content. Later updates may include parameter to force script to instead pull file paths from a user specified object. Depends on `Get-FreeDiskSpace` to function.
 
 * SYNTAX
 	* `Clean-Disk [[-servers] <array>/<string>] [[-disk] <string>]`
@@ -33,7 +32,7 @@ Cleans space from predefined file paths for removable content. Later updates may
 		* CleanedSpace: `<int>` as percent
 
 ### Get-Clipboard
-Returns whatever is currently saved to the clipboard. I do not believe this is my original work, but I have no idea who I might have acquired this from to credit them, but it is very useful so I have included it anyway.
+Returns whatever is currently saved to the clipboard.
 * Usage: `Get-Clipboard`
 
 ### Get-CPU
@@ -111,7 +110,7 @@ Provides basic information on the system resource consumption of processes in a 
 		* [[-process] `<string>`]: Specify a process by name to get info on. Partial names will still return hits.
 		* [-memory]: Sort output by memory in descending order.
 		* [-cpu]: Sort output by CPU in descending order.
-		* [[show] `<int>`]: specify a certain certain number of rsults to limit the output to.
+		* [[show] `<int>`]: specify a certain certain number of results to limit the output to.
 
 * RETURNS:
 	* Object with parameters:
@@ -122,6 +121,7 @@ Provides basic information on the system resource consumption of processes in a 
 
 ## Donate
 Like what I do? Want me to do more? Send me dollar and say "faradical, go back to work." Or don't.\
-[paypal](https://paypal.me/feedseth?locale.x=en_US)\
-BTC Address: 3E1Hr3Q6imVgvX352QgEPLeXYkrKfgzkQf\
-ETH Address: 0x216ee6f11D7547bE201c4E2DAFf02D2C232574f3
+
+* [paypal](https://paypal.me/feedseth?locale.x=en_US)\
+* BTC Address: 3E1Hr3Q6imVgvX352QgEPLeXYkrKfgzkQf\
+* ETH Address: 0x216ee6f11D7547bE201c4E2DAFf02D2C232574f3
