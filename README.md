@@ -118,5 +118,5 @@ Provides basic information on the system resource consumption of processes in a 
 Like what I do? Want me to do more? Send me dollar and say "faradical, go back to work." Or don't.
 
 * [paypal](https://paypal.me/feedseth?locale.x=en_US)
-* BTC Address: 3E1Hr3Q6imVgvX352QgEPLeXYkrKfgzkQf
-* ETH Address: 0x216ee6f11D7547bE201c4E2DAFf02D2C232574f3
+* BTC Address:
+* ETH Address:
